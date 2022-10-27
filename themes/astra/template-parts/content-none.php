@@ -30,8 +30,9 @@
 					esc_url( admin_url( 'post-new.php' ) )
 				);
 			?>
+			
 			</p>
-
+			
 		<?php elseif ( is_search() ) : ?>
 
 			<p><?php echo("No report found, Please check the batch code again!") ; ?></p>
@@ -42,6 +43,7 @@
 			<p><?php echo("No report found, Please check the batch code again!") ; ?></p>
 
 		<?php endif; ?>
+		
 
 	</div><!-- .page-content -->
 </section><!-- .no-results -->
